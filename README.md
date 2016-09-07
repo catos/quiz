@@ -8,8 +8,9 @@ To work on this project:
 * Run `npm run serve` to start a local development web server. You can now access the application at [localhost:8080](http://localhost:8080/).
 
 ## To Do
-- Promise i quiz.service
-- Typings...
+- Read: https://angular.io/docs/ts/latest/guide/ngmodule.html
+- Read: https://angular.io/docs/ts/latest/cookbook/ngmodule-faq.html
+- Read: https://github.com/typings/typings/blob/master/docs/faq.md
 - New project layout:
 `
     /dist
