@@ -11,6 +11,7 @@ To work on this project:
 - Promise i quiz.service
 - Typings...
 - New project layout:
+`
     /dist
     /node_modules
     /src
@@ -20,16 +21,15 @@ To work on this project:
       main.ts
     package.json
     ...
-
+`
 
 ## References
-https://www.udemy.com/angular-2-from-the-ground-up/learn/v4/announcements
-
-https://angular.io/docs/ts/latest/guide/router.html
-https://angular.io/resources/live-examples/router/ts/plnkr.html
+- https://www.udemy.com/angular-2-from-the-ground-up/learn/v4/announcements
+- https://angular.io/docs/ts/latest/guide/router.html
+- https://angular.io/resources/live-examples/router/ts/plnkr.html
 
 ## FU Typings
-install dt~es6-shim --save --global
+`install dt~es6-shim --save --global`
 
 ## Credits
 This example is based on the **Angular 2 From The Ground Up** course by Mirko Nasato.
