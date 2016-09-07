@@ -10,10 +10,12 @@ import { Quiz, QuizService } from '../index';
 export class QuizIndexComponent implements OnInit {
   quizzes: Quiz[];
 
-  constructor(private quizService: QuizService) {}
+  constructor(private quizService: QuizService) { }
 
   ngOnInit() {
-    this.quizzes = this.quizService.getAllQuizzes();
+    this.quizService.getAllQuizzes().then(
+      quizzes => this.quizzes = quizzes
+    );
   }
 }
 

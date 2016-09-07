@@ -1,1 +1,3 @@
-<h3>Quiz - Session</h3>
+<div *ngIf="quiz">
+  <h3>{{quiz.name}} <small><a routerLink="/quiz">Back to index</a></small></h3>
+</div>

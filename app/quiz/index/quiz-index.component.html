@@ -1,7 +1,9 @@
-<h3>Quiz - Index</h3>
+<h3>Index</h3>
 
 <ul>
   <li *ngFor="let quiz of quizzes">
-    <a routerLink="/quiz/{{quiz.id}}" routerLinkActive="active">{{quiz.name}} ({{quiz.hours}} hours) - {{quiz.price}},-</a>
+    <a routerLink="/quiz/{{quiz.id}}" routerLinkActive="active">
+      {{quiz.name}} ({{quiz.hours}} hours) - {{quiz.price | oretokrone}}
+    </a>
   </li>
 </ul>

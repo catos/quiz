@@ -1,5 +1,4 @@
 # Quiz
-
 An Angular 2 web application that converts between different currencies. Used to demonstrate template features.
 
 To work on this project:
@@ -11,6 +10,16 @@ To work on this project:
 ## To Do
 - Promise i quiz.service
 - Typings...
+- New project layout:
+    /dist
+    /node_modules
+    /src
+      /app
+        app.component.ts
+        app.module.ts
+      main.ts
+    package.json
+    ...
 
 
 ## References
@@ -19,6 +28,8 @@ https://www.udemy.com/angular-2-from-the-ground-up/learn/v4/announcements
 https://angular.io/docs/ts/latest/guide/router.html
 https://angular.io/resources/live-examples/router/ts/plnkr.html
 
-## Credits
+## FU Typings
+install dt~es6-shim --save --global
 
+## Credits
 This example is based on the **Angular 2 From The Ground Up** course by Mirko Nasato.

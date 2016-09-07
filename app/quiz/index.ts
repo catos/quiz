@@ -1,4 +1,6 @@
-export { Quiz } from './quiz';
+export { Quiz } from './models/quiz';
+export { Question } from './models/question';
+export { Alternative } from './models/alternative';
 
 export { QuizService } from './quiz.service';
 
