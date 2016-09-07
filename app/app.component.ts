@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'my-app',
-  template: `
-    <h1>My App</h1>
-    <currency-converter></currency-converter>
-  `
+  templateUrl: 'app/app.component.html',
+  styleUrls: [
+    'app/app.component.css'
+  ]
 })
 
 export class AppComponent { }

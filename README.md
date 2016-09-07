@@ -1,11 +1,24 @@
-# Currency Converter
+# Quiz
 
 An Angular 2 web application that converts between different currencies. Used to demonstrate template features.
 
 To work on this project:
 
 * Run `npm install` inside the project folder to download all the dependencies. This only needs to be done once.
-* Run `npm run build` to compile the TypeScript code in the `src` folder into ES5 code into the `app` folder.
+* Run `npm run build` to compile the TypeScript code in the `app` folder into ES5 code into the `build` folder.
 * Run `npm run serve` to start a local development web server. You can now access the application at [localhost:8080](http://localhost:8080/).
 
-This example is part of the **Angular 2 From The Ground Up** course by Mirko Nasato.
+## To Do
+- Promise i quiz.service
+- Typings...
+
+
+## References
+https://www.udemy.com/angular-2-from-the-ground-up/learn/v4/announcements
+
+https://angular.io/docs/ts/latest/guide/router.html
+https://angular.io/resources/live-examples/router/ts/plnkr.html
+
+## Credits
+
+This example is based on the **Angular 2 From The Ground Up** course by Mirko Nasato.

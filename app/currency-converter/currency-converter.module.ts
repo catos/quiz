@@ -2,16 +2,21 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
-import { FixedPipe } from '../shared/fixed.pipe';
+import { FixedPipe } from '../common/fixed.pipe';
 
 import { ExchangeService } from './exchange.service';
+import { CurrencyConverterComponent } from './currency-converter.component';
 import { CurrencySelectComponent } from './currency-select.component';
 
 @NgModule({
-  imports: [BrowserModule, FormsModule],
   declarations: [
+    CurrencyConverterComponent,
     CurrencySelectComponent,
     FixedPipe
+  ],
+  imports: [
+    BrowserModule,
+    FormsModule
   ],
   providers: [
     ExchangeService
