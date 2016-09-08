@@ -30,7 +30,7 @@ To work on this project:
 - https://angular.io/resources/live-examples/router/ts/plnkr.html
 
 ## FU Typings
-`install dt~es6-shim --save --global`
+`typings install dt~es6-shim --save --global`
 
 ## Credits
 This example is based on the **Angular 2 From The Ground Up** course by Mirko Nasato.
