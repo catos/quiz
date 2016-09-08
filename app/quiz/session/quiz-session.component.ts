@@ -19,7 +19,7 @@ export class QuizSessionComponent implements OnInit {
   ngOnInit() {
     this.route.params.subscribe(params => {
       let id = +params['id'];
-      console.log('id', id);
+      console.log('id....', id);
       this.quizService.getQuiz(id).then(
         quiz => this.quiz = quiz
       );

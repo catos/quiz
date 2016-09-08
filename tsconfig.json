@@ -13,5 +13,11 @@
     "typings/main",
     "typings/main.d.ts"
   ],
-  "compileOnSave": false
+  "compileOnSave": false,
+  "typeRoots": [
+    "../node_modules/@types"
+  ],
+  "types": [
+    "core-js"
+  ]
 }

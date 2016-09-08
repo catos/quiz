@@ -13,6 +13,7 @@ export class QuizIndexComponent implements OnInit {
   constructor(private quizService: QuizService) { }
 
   ngOnInit() {
+    console.log('lol?');
     this.quizService.getAllQuizzes().then(
       quizzes => this.quizzes = quizzes
     );
