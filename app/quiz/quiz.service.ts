@@ -14,7 +14,11 @@ export class QuizService {
 
 const QUIZZES: Quiz[] = [
   {
-    id: 1, name: 'Angular 101', price: 10050, hours: 1, questions: [
+    id: 1,
+    name: 'Angular 101',
+    price: 10050,
+    hours: 1,
+    questions: [
       {
         id: "q1",
         text: "Property binding with [value]=\"foo\" or interpolation with {{foo}} results in",
