@@ -11,6 +11,7 @@ To work on this project:
 - Read: https://angular.io/docs/ts/latest/guide/ngmodule.html
 - Read: https://angular.io/docs/ts/latest/cookbook/ngmodule-faq.html
 - Read: https://github.com/typings/typings/blob/master/docs/faq.md
+- Continue common/logger.service...
 - New project layout:
 `
     /dist

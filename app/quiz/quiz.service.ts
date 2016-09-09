@@ -1,12 +1,13 @@
 import { Quiz } from './index';
-import { Logger } from '../common/logger.service';
+// import { Logger } from '../common/logger.service';
 
 export class QuizService {
 
-  constructor(private logger: Logger) {}
+// private logger: Logger
+  constructor() {}
 
   getAllQuizzes() {
-    this.logger.log('getAllQuizzes');
+    // this.logger.log('getAllQuizzes');
     return quizzesPromise;
   }
 
