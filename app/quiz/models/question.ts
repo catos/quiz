@@ -1,8 +1,8 @@
 import { Alternative } from '../index';
 
 export interface Question {
-  id: string;
+  id: number;
   text: string;
   alternatives: Alternative[];
-  solution: string;
+  solution: number;
 }

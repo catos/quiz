@@ -1,0 +1,11 @@
+<!--<pre>{{question | json}}</pre>-->
+<div class="question">
+  <div class="text">{{question.text}}</div>
+  <ul>
+    <li
+      *ngFor="let alternative of question.alternatives"
+      (click)="onAnswer(alternative)">
+      {{alternative.text}}
+    </li>
+  </ul>
+</div>

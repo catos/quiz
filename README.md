@@ -1,16 +1,11 @@
 # Quiz
-An Angular 2 web application that converts between different currencies. Used to demonstrate template features.
-
-To work on this project:
-
-* Run `npm install` inside the project folder to download all the dependencies. This only needs to be done once.
-* Run `npm run build` to compile the TypeScript code in the `app` folder into ES5 code into the `build` folder.
-* Run `npm run serve` to start a local development web server. You can now access the application at [localhost:8080](http://localhost:8080/).
+An Angular 2 web application that hopefully will satisfy the demands of the udemy-course requesting me to make a simlpe quiz app.
 
 ## To Do
 - Read: https://angular.io/docs/ts/latest/guide/ngmodule.html
 - Read: https://angular.io/docs/ts/latest/cookbook/ngmodule-faq.html
 - Read: https://github.com/typings/typings/blob/master/docs/faq.md
+- Continue on quiz/session.component...(score, reset is not entirely correct)
 - Continue common/logger.service...
 - New project layout:
 `

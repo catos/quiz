@@ -1,4 +1,4 @@
 export interface Alternative {
-  id: string;
+  id: number;
   text: string;
 }

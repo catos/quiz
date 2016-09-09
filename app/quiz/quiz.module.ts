@@ -4,9 +4,16 @@ import { CommonModule } from '@angular/common';
 import { OreToKronePipe } from '../common/ore-to-krone.pipe';
 import { Logger } from '../common/logger.service';
 
-import { Quiz, Question, Alternative } from './index';
-import { QuizService } from './index';
-import { QuizComponent, QuizIndexComponent, QuizSessionComponent } from './index';
+import {
+  Quiz, Question, Alternative,
+
+  QuizService,
+
+  QuizComponent,
+  QuizIndexComponent,
+  QuizSessionComponent,
+  QuestionComponent
+} from './index';
 
 import { quizRouting } from './quiz.routing';
 
@@ -15,6 +22,7 @@ import { quizRouting } from './quiz.routing';
     QuizComponent,
     QuizIndexComponent,
     QuizSessionComponent,
+    QuestionComponent,
     OreToKronePipe
   ],
   imports: [
@@ -27,4 +35,4 @@ import { quizRouting } from './quiz.routing';
   ]
 })
 
-export class QuizModule {}
+export class QuizModule { }

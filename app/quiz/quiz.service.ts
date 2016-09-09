@@ -25,99 +25,99 @@ const QUIZZES: Quiz[] = [
     hours: 1,
     questions: [
       {
-        id: "q1",
+        id: "1",
         text: "Property binding with [value]=\"foo\" or interpolation with {{foo}} results in",
         alternatives: [
           {
-            id: "q1.a1",
+            id: "1",
             text: "One-way binding from the component to the view"
           },
           {
-            id: "q1.a2",
+            id: "2",
             text: "One-way binding from the view to the component"
           },
           {
-            id: "q1.a3",
+            id: "3",
             text: "Two-way binding"
           }
         ],
-        solution: "q1.a1"
+        solution: "1"
       },
       {
-        id: "q2",
+        id: "2",
         text: "Event binding with (click)=\"doSomething()\" results in",
         alternatives: [
           {
-            id: "q2.a1",
+            id: "1",
             text: "One-way binding from the component to the view"
           },
           {
-            id: "q2.a2",
+            id: "2",
             text: "One-way binding from the view to the component"
           },
           {
-            id: "q2.a3",
+            id: "3",
             text: "Two-way binding"
           }
         ],
-        solution: "q2.a2"
+        solution: "2"
       },
       {
-        id: "q3",
+        id: "3",
         text: "Using ngModel with [(ngModel)]=\"foo\" results in",
         alternatives: [
           {
-            id: "q3.a1",
+            id: "1",
             text: "One-way binding from the component to the view"
           },
           {
-            id: "q3.a2",
+            id: "2",
             text: "One-way binding from the view to the component"
           },
           {
-            id: "q3.a3",
+            id: "3",
             text: "Two-way binding"
           }
         ],
-        solution: "q3.a3"
+        solution: "3"
       },
       {
-        id: "q4",
+        id: "4",
         text: "ngFor is an example of",
         alternatives: [
           {
-            id: "q4.a1",
+            id: "1",
             text: "Attribute directive"
           },
           {
-            id: "q4.a2",
+            id: "2",
             text: "Structural directive"
           },
           {
-            id: "q4.a3",
+            id: "3",
             text: "Destructuring assignment"
           }
         ],
-        solution: "q4.a2"
+        solution: "2"
       },
       {
-        id: "q5",
+        id: "5",
         text: "ngClass is an example of",
         alternatives: [
           {
-            id: "q5.a1",
+            id: "1",
             text: "Attribute directive"
           },
           {
-            id: "q5.a2",
+            id: "2",
             text: "Structural directive"
           },
           {
-            id: "q5.a3",
+            id: "3",
             text: "Destructuring assignment"
           }
         ],
-        solution: "q5.a1"
+        solution: "1"
       }
     ]
   },
