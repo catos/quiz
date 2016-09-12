@@ -1,0 +1,13 @@
+.text {
+  font-size: 1.5em;
+}
+
+.question ul li {
+  padding: 3px 0;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.question ul li:hover {
+  color: #999;
+}

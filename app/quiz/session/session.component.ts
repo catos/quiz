@@ -12,11 +12,7 @@ export enum SessionState {
 @Component({
   selector: 'quiz-session',
   templateUrl: 'app/quiz/session/session.component.html',
-  styles: [`
-    .alert {
-      margin-top: 25px;
-    }
-  `]
+  styleUrls: ['app/quiz/session/session.component.css']
 })
 export class QuizSessionComponent implements OnInit {
   timeoutId: any;
