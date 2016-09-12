@@ -1,8 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { OreToKronePipe } from '../_common/ore-to-krone.pipe';
-import { Logger } from '../_common/logger.service';
+import { Logger, OreToKronePipe } from '../shared/index';
 
 import {
   Quiz, Question, Alternative,

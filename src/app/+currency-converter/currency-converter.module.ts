@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
-import { FixedPipe } from '../_common/fixed.pipe';
+import { FixedPipe } from '../shared/index';
 
 import { ExchangeService } from './exchange.service';
 import { CurrencyConverterComponent } from './currency-converter.component';

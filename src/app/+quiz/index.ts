@@ -1,8 +1,5 @@
-export { Quiz } from './_interfaces/quiz.interface';
-export { Question } from './_interfaces/question.interface';
-export { Alternative } from './_interfaces/alternative.interface';
-
-export { QuizService } from './quiz.service';
+export { Quiz, Question, Alternative } from './shared/index';
+export { QuizService } from './shared/index';
 
 export { QuizComponent } from './quiz.component';
 

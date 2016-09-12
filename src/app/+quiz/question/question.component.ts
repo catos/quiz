@@ -4,8 +4,8 @@ import { Question, Alternative } from '../index';
 
 @Component({
   selector: 'question',
-  templateUrl: 'app/quiz/question/question.component.html',
-  styleUrls: ['app/quiz/question/question.component.css']
+  templateUrl: 'src/app/+quiz/question/question.component.html',
+  styleUrls: ['src/app/+quiz/question/question.component.css']
 })
 
 export class QuestionComponent {

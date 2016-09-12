@@ -5,19 +5,9 @@ An Angular 2 web application that hopefully will satisfy the demands of the udem
 - Read: https://angular.io/docs/ts/latest/guide/ngmodule.html
 - Read: https://angular.io/docs/ts/latest/cookbook/ngmodule-faq.html
 - Read: https://github.com/typings/typings/blob/master/docs/faq.md
-- Continue common/logger.service...
-- New project layout:
-`
-    /dist
-    /node_modules
-    /src
-      /app
-        app.component.ts
-        app.module.ts
-      main.ts
-    package.json
-    ...
-`
+
+## Application Structure
+https://angular.io/docs/ts/latest/guide/style-guide.html#!#application-structure
 
 ## References
 - https://www.udemy.com/angular-2-from-the-ground-up/learn/v4/announcements

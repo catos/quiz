@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { Logger } from '../../_common/logger.service';
+import { Logger } from '../../shared/index';
 import { Quiz, QuizService } from '../index';
 
 @Component({
   selector: 'quiz-index',
-  templateUrl: 'app/quiz/index/index.component.html',
-  styleUrls: ['app/quiz/index/index.component.css']
+  templateUrl: 'src/app/+quiz/index/index.component.html',
+  styleUrls: ['src/app/+quiz/index/index.component.css']
 })
 
 export class QuizIndexComponent implements OnInit {

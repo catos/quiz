@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "rootDir": "app",
-    "outDir": "build",
+    "rootDir": "src",
+    "outDir": "dist",
     "target": "es5",
     "module": "system",
     "moduleResolution": "node",

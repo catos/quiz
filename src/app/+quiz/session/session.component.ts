@@ -11,8 +11,8 @@ export enum SessionState {
 
 @Component({
   selector: 'quiz-session',
-  templateUrl: 'app/quiz/session/session.component.html',
-  styleUrls: ['app/quiz/session/session.component.css']
+  templateUrl: 'src/app/+quiz/session/session.component.html',
+  styleUrls: ['src/app/+quiz/session/session.component.css']
 })
 export class QuizSessionComponent implements OnInit {
   timeoutId: any;
@@ -59,8 +59,6 @@ export class QuizSessionComponent implements OnInit {
 
   answer(alternative: Alternative) {
     this.currentQuestionId++;
-    console.log('this.currentQuestionId: ' + this.currentQuestionId);
-
 
     if (alternative.id === this.currentQuestion.solution) {
       this.showMessage('Correct, nice work!');

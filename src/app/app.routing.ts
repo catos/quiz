@@ -1,14 +1,12 @@
 import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { StartPageComponent } from './_layout/start-page.component';
-
 const quizRoutes: Routes = [
-  { path: 'quiz', loadChildren: 'app/quiz/quiz.module#QuizModule' }
+  { path: 'quiz', loadChildren: 'src/app/quiz/quiz.module#QuizModule' }
 ];
 
 const appRoutes: Routes = [
-  { path: '', component: StartPageComponent },
+  // { path: '', component: StartPageComponent },
   ...quizRoutes
 ];
 
