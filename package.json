@@ -24,7 +24,7 @@
   "devDependencies": {
     "concurrently": "2.2.0",
     "lite-server": "2.2.2",
-    "typescript": "^2.0.0",
+    "typescript": "^2.1.0-dev.20160912",
     "typings": "^1.3.3"
   }
 }

@@ -4,7 +4,7 @@ import { Quiz, QuizService } from '../index';
 
 @Component({
   selector: 'quiz-index',
-  templateUrl: 'app/quiz/index/quiz-index.component.html'
+  templateUrl: 'app/quiz/index/index.component.html'
 })
 
 export class QuizIndexComponent implements OnInit {

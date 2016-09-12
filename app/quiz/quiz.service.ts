@@ -1,5 +1,5 @@
 import { Quiz } from './index';
-// import { Logger } from '../common/logger.service';
+// import { Logger } from '../_common/logger.service';
 
 export class QuizService {
 
@@ -25,99 +25,99 @@ const QUIZZES: Quiz[] = [
     hours: 1,
     questions: [
       {
-        id: "1",
+        id: 1,
         text: "Property binding with [value]=\"foo\" or interpolation with {{foo}} results in",
         alternatives: [
           {
-            id: "1",
+            id: 1,
             text: "One-way binding from the component to the view"
           },
           {
-            id: "2",
+            id: 2,
             text: "One-way binding from the view to the component"
           },
           {
-            id: "3",
+            id: 3,
             text: "Two-way binding"
           }
         ],
-        solution: "1"
+        solution: 1
       },
       {
-        id: "2",
+        id: 2,
         text: "Event binding with (click)=\"doSomething()\" results in",
         alternatives: [
           {
-            id: "1",
+            id: 1,
             text: "One-way binding from the component to the view"
           },
           {
-            id: "2",
+            id: 2,
             text: "One-way binding from the view to the component"
           },
           {
-            id: "3",
+            id: 3,
             text: "Two-way binding"
           }
         ],
-        solution: "2"
+        solution: 2
       },
       {
-        id: "3",
+        id: 3,
         text: "Using ngModel with [(ngModel)]=\"foo\" results in",
         alternatives: [
           {
-            id: "1",
+            id: 1,
             text: "One-way binding from the component to the view"
           },
           {
-            id: "2",
+            id: 2,
             text: "One-way binding from the view to the component"
           },
           {
-            id: "3",
+            id: 3,
             text: "Two-way binding"
           }
         ],
-        solution: "3"
+        solution: 3
       },
       {
-        id: "4",
+        id: 4,
         text: "ngFor is an example of",
         alternatives: [
           {
-            id: "1",
+            id: 1,
             text: "Attribute directive"
           },
           {
-            id: "2",
+            id: 2,
             text: "Structural directive"
           },
           {
-            id: "3",
+            id: 3,
             text: "Destructuring assignment"
           }
         ],
-        solution: "2"
+        solution: 2
       },
       {
-        id: "5",
+        id: 5,
         text: "ngClass is an example of",
         alternatives: [
           {
-            id: "1",
+            id: 1,
             text: "Attribute directive"
           },
           {
-            id: "2",
+            id: 2,
             text: "Structural directive"
           },
           {
-            id: "3",
+            id: 3,
             text: "Destructuring assignment"
           }
         ],
-        solution: "1"
+        solution: 1
       }
     ]
   },

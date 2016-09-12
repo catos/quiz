@@ -1,0 +1,18 @@
+<div *ngIf="quiz">
+  <h3>{{quiz.name}} <small><a routerLink="/quiz">Back to index</a></small></h3>
+
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="scorePercent" aria-valuemin="0" aria-valuemax="100" [style.width]="scorePercent + '%'">
+      {{score}} of {{totalScore}} points
+    </div>
+  </div>
+
+  <question *ngIf="showQuestion()" [question]="currentQuestion" (answer)="answer($event)"></question>
+
+  <button *ngIf="showStartButton()" class="btn btn-lg btn-primary" (click)="start()">Start</button>
+  <button *ngIf="showResetButton()" class="btn btn-lg btn-primary" (click)="reset()">Reset</button>
+
+  <div [class]="messageClass" *ngIf="message">
+    {{message}}
+  </div>
+</div>

@@ -5,7 +5,6 @@ An Angular 2 web application that hopefully will satisfy the demands of the udem
 - Read: https://angular.io/docs/ts/latest/guide/ngmodule.html
 - Read: https://angular.io/docs/ts/latest/cookbook/ngmodule-faq.html
 - Read: https://github.com/typings/typings/blob/master/docs/faq.md
-- Continue on quiz/session.component...(score, reset is not entirely correct)
 - Continue common/logger.service...
 - New project layout:
 `
