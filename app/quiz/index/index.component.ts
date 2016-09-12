@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Logger } from '../../_common/logger.service';
 import { Quiz, QuizService } from '../index';
 
 @Component({
@@ -11,10 +11,13 @@ import { Quiz, QuizService } from '../index';
 export class QuizIndexComponent implements OnInit {
   quizzes: Quiz[];
 
-  constructor(private quizService: QuizService) { }
+  constructor(
+    private quizService: QuizService,
+    private logger: Logger
+    ) { }
 
   ngOnInit() {
-    console.log('lol?');
+    this.logger.log('Ugh, dette var ikke så smidig akkurat');
     this.quizService.getAllQuizzes().then(
       quizzes => this.quizzes = quizzes
     );
